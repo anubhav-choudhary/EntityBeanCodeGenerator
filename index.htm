@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Entity Bean Code Generator</title>
+<script src="app.js"></script>
+</head>
+<body>
+<h1>Entity Bean Code Generator</h1>
+<fieldset>
+<table summary="" id="modelDetail">
+<tr><td>Package Name : </td><td><input name="package" id="package"/></td></tr>
+<tr><td>Bean Name : </td><td><input name="model" id="model"/></td></tr>
+<tr><td>Database Connection Package : </td><td><input name="database" id="database"/></td></tr>
+</table>
+</fieldset>
+<button id="addBtn" onclick="addAttribute()">Add Attribute</button> <button id="remBtn" onclick="remAttribute()">Remove Attribute</button></br>
+<br>
+<button onclick="genCode()">Generate JAVA Code</button><br><br>
+<div id="src"></div>
+</body>
+</html>
